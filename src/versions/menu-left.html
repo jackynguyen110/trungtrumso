@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" data-vb-theme="default">
+@@include('src/versions/head.html')
+
+<body class="vb__layout--cardsShadow vb__menuLeft--dark">
+  <div class="initial__loading"></div>
+  <div class="vb__layout vb__layout--hasSider">
+    @@include('src/components/layout/support-chat/template.html')
+    @@include('src/components/layout/sidebar/template.html')
+    @@include('src/components/layout/menu-left/template.html')
+    <div class="vb__layout">
+      <div class="vb__layout__header">
+        @@include('src/components/layout/topbar/template.html')
+      </div>
+      <div class="vb__layout__content">
+        @@include('src/components/layout/breadcrumbs/template.html')
+        <div class="vb__utils__content">
+          <%= contents %>
+        </div>
+      </div>
+      <div class="vb__layout__footer">
+        @@include('src/components/layout/footer/template.html')
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

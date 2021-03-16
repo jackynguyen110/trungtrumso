@@ -1,0 +1,16 @@
+@import 'src/components/mixins';
+
+.vb__g15 {
+  &__contentContainer {
+    border-bottom: 1px solid $gray-2;
+  }
+}
+
+// dark theme
+[data-vb-theme='dark'] {
+  .vb__g15 {
+    &__contentContainer {
+      border-bottom: 1px solid $dark-gray-4;
+    }
+  }
+}

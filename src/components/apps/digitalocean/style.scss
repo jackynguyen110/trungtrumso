@@ -1,0 +1,12 @@
+@import 'src/components/mixins';
+
+//////////////////////////////////////////////////////////////////////////////////////////
+/* DIGITALOCEAN */
+
+.vb {
+  &__digitalocean {
+    &__hostname {
+      max-width: rem(500);
+    }
+  }
+}
